@@ -1,0 +1,13 @@
+Concepto	Descripción
+stack	    Estructura LIFO (último en entrar, primero en salir).
+.push()	    Inserta un nuevo elemento arriba de la pila.
+.pop()	    Elimina el elemento superior (no devuelve nada).
+.top()	    Devuelve una referencia al elemento superior sin eliminarlo.
+.size()	    Devuelve el número de elementos actuales en la pila.
+.empty()	Verifica si la pila está vacía.
+
+Operación	queue (cola)	                                  stack (pila)
+Orden	    FIFO (primero en entrar, primero en salir)	      LIFO (último en entrar, primero en salir)
+Agregar	    .push() (al final)	                              .push() (arriba de la pila)
+Eliminar	.pop() (desde el frente)	                      .pop() (desde arriba)
+Consultar	.front()	                                      .top()
