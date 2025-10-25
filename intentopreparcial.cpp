@@ -56,7 +56,7 @@ cout<<endl;
 
 for(libros i : libro){
     cout<<"titulo: "<<i.titulo<<endl;
-    cout<<"año"
+    cout<<"año"<<i.año<<endl;
 
 }
 }
@@ -83,7 +83,7 @@ int main(){
             solicitar(biblioteca, libro);
             break;
         case 2:
-
+            imprimir(biblioteca, libro);
             break;
         case 3:
 
